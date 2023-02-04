@@ -14,6 +14,7 @@
 		E3EFAE48298E7000009CED66 /* CommentCardWriterAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EFAE47298E7000009CED66 /* CommentCardWriterAppTests.swift */; };
 		E3EFAE52298E7000009CED66 /* CommentCardWriterAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EFAE51298E7000009CED66 /* CommentCardWriterAppUITests.swift */; };
 		E3EFAE54298E7000009CED66 /* CommentCardWriterAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EFAE53298E7000009CED66 /* CommentCardWriterAppUITestsLaunchTests.swift */; };
+		E3EFAE63298E70D6009CED66 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EFAE62298E70D6009CED66 /* Comment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		E3EFAE4D298E7000009CED66 /* CommentCardWriterAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommentCardWriterAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3EFAE51298E7000009CED66 /* CommentCardWriterAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCardWriterAppUITests.swift; sourceTree = "<group>"; };
 		E3EFAE53298E7000009CED66 /* CommentCardWriterAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCardWriterAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E3EFAE62298E70D6009CED66 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +96,9 @@
 		E3EFAE35298E6FFD009CED66 /* CommentCardWriterApp */ = {
 			isa = PBXGroup;
 			children = (
+				E3EFAE60298E7086009CED66 /* View */,
+				E3EFAE61298E70B3009CED66 /* Model */,
 				E3EFAE36298E6FFD009CED66 /* CommentCardWriterAppApp.swift */,
-				E3EFAE38298E6FFD009CED66 /* ContentView.swift */,
 				E3EFAE3A298E6FFF009CED66 /* Assets.xcassets */,
 				E3EFAE3C298E6FFF009CED66 /* Preview Content */,
 			);
@@ -125,6 +128,22 @@
 				E3EFAE53298E7000009CED66 /* CommentCardWriterAppUITestsLaunchTests.swift */,
 			);
 			path = CommentCardWriterAppUITests;
+			sourceTree = "<group>";
+		};
+		E3EFAE60298E7086009CED66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E3EFAE38298E6FFD009CED66 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E3EFAE61298E70B3009CED66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E3EFAE62298E70D6009CED66 /* Comment.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3EFAE63298E70D6009CED66 /* Comment.swift in Sources */,
 				E3EFAE39298E6FFD009CED66 /* ContentView.swift in Sources */,
 				E3EFAE37298E6FFD009CED66 /* CommentCardWriterAppApp.swift in Sources */,
 			);

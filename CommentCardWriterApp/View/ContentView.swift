@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    let comments = Comments()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Button("Generate comment", action: {  })
     }
 }
 
