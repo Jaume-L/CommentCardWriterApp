@@ -8,11 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
-    let comments = Comments()
+    let comment = Comment()
+    @State var showComment = false
+    @State var currentComment = ""
     
     var body: some View {
-        Button("Generate comment", action: {  })
+        VStack {
+            Button("Generate comment", action: {
+                showComment = true
+                currentComment = comment.returnRandomComment()
+            })
+            Text(currentComment)
+        }
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {

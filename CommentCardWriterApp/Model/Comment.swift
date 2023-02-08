@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Comments {
+class Comment {
     let comments: [String]
     
     init() {
