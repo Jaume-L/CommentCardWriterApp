@@ -11,10 +11,18 @@ class Comment {
     let comments: [String]
     
     init() {
-        comments = ["Computer science is fun.", "I like computer science."]
+        comments = ["I have hated ","I have not enjoyed ", "I have enjoyed ", "I have loved ", "so far this half."]
     }
     
-    func returnRandomComment() -> String {
-        return comments[Int.random(in: 0..<comments.count)]
+    func generateComment(subjectName: String, enjoyment: Double) -> String {
+        if enjoyment < 1 {
+            return "\(comments[0])\(subjectName)\(comments[-1])"
+        } else if enjoyment < 2.5 {
+            return "\(comments[1])\(subjectName)\(comments[-1])"
+        } else if enjoyment < 4 {
+            return "\(comments[2])\(subjectName)\(comments[-1])"
+        } else {
+            return "\(comments[3])\(subjectName)\(comments[-1])"
+        }
     }
 }

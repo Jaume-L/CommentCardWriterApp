@@ -15,7 +15,6 @@
 		E3EFAE52298E7000009CED66 /* CommentCardWriterAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EFAE51298E7000009CED66 /* CommentCardWriterAppUITests.swift */; };
 		E3EFAE54298E7000009CED66 /* CommentCardWriterAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EFAE53298E7000009CED66 /* CommentCardWriterAppUITestsLaunchTests.swift */; };
 		E3EFAE63298E70D6009CED66 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EFAE62298E70D6009CED66 /* Comment.swift */; };
-		E3F741682993AA7A00556548 /* CommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F741672993AA7A00556548 /* CommentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +46,6 @@
 		E3EFAE51298E7000009CED66 /* CommentCardWriterAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCardWriterAppUITests.swift; sourceTree = "<group>"; };
 		E3EFAE53298E7000009CED66 /* CommentCardWriterAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCardWriterAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E3EFAE62298E70D6009CED66 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
-		E3F741672993AA7A00556548 /* CommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,7 +134,6 @@
 			isa = PBXGroup;
 			children = (
 				E3EFAE38298E6FFD009CED66 /* ContentView.swift */,
-				E3F741672993AA7A00556548 /* CommentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -281,7 +278,6 @@
 			files = (
 				E3EFAE63298E70D6009CED66 /* Comment.swift in Sources */,
 				E3EFAE39298E6FFD009CED66 /* ContentView.swift in Sources */,
-				E3F741682993AA7A00556548 /* CommentView.swift in Sources */,
 				E3EFAE37298E6FFD009CED66 /* CommentCardWriterAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
